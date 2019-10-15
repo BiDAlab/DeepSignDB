@@ -33,7 +33,7 @@ For the **final testing of the systems**, the remaining 442 users of the DeepSig
 
 **Table 1** describes all the experimental protocol details of the DeepSignDB **evaluation dataset** for both stylus (top) and finger (bottom) writing inputs.
 
-![](http://atvs.ii.uam.es/atvs/DeepSignDB_Experimental_Protocol.png)
+![](http://atvs.ii.uam.es/atvs/DeepSignDB_Experimental_Protocol_v2.png)
 
 Table 1: Experimental protocol details of the DeepSignDB evaluation dataset (442 users). Numbers are per user and device.
 
