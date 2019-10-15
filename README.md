@@ -43,27 +43,26 @@ All data provided is organised as follows:
 
 ```shell
 DeepSignDB
-|-- DeepSignDB
-    |-- Development
-    |-- Evaluation
-        |-- Finger
-        |-- Stylus
-        
-|-- Comparison_Files
+|-- Development
+|-- Evaluation
     |-- Finger
-        |-- 1vs1
-            |-- Random
-            |-- Skilled
-        |-- 4vs1
-            |-- Random
-            |-- Skilled
     |-- Stylus
-        |-- 1vs1
-            |-- Random
-            |-- Skilled
-        |-- 4vs1
-            |-- Random
-            |-- Skilled
+        
+Comparison_Files
+|-- Finger
+    |-- 1vs1
+        |-- Random
+        |-- Skilled
+    |-- 4vs1
+        |-- Random
+        |-- Skilled
+|-- Stylus
+    |-- 1vs1
+        |-- Random
+        |-- Skilled
+    |-- 4vs1
+        |-- Random
+        |-- Skilled
 
 ```
 
