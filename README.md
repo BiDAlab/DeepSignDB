@@ -74,7 +74,7 @@ We provide all details regarding comparison files and nomenclature in the “REA
 
 ## **EVALUATION RESULTS**
 
-Table 2 and 3 provide the **evaluation performance results** of our proposed TA-RNN approach for the **whole DeepSignDB** evaluation dataset and for **each of the databases** included in it when using the stylus and finger as input. In addition, we compare the proposed TA-RNNs [TCYB2019_DeepSign] with the preliminary benchmark results presented in [ICDAR2019_DeepSignDB] for completeness. Currently, Biosecure DS2 database is not included in these results as we cannot provide it yet.
+Table 2 and 3 provide the **evaluation performance results** of our proposed TA-RNN approach for the **whole DeepSignDB** evaluation dataset and for **each of the databases** included in it when using the stylus and finger as input. In addition, we compare the proposed TA-RNNs [TCYB2019_DeepSign] with the preliminary benchmark results presented in [ICDAR2019_DeepSignDB] for completeness. **Currently, Biosecure DS2 database is not included in these results as we cannot provide it yet.**
 
 ![ ](http://atvs.ii.uam.es/atvs/DeepSignDB_EP_Stylus.png)
 
