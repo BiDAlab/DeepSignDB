@@ -37,13 +37,16 @@ For the **final testing of the systems**, the remaining 442 users of the DeepSig
 
 Table 1: Experimental protocol details of the DeepSignDB evaluation dataset (442 users). Numbers are per user and device.
 
-For the moment, **we are able to release part of the evaluation dataset together with the corresponding signature comparisons files** considered during the evaluation of the systems in order to provide an easily reproducible framework. **We will contact all applicants as soon as possible in order to provide access to more dev/eval datasets as well**.
+For the moment, **we are able to release all databases apart from the Biosecure DS2 together with the corresponding signature comparisons files** considered during the evaluation of the systems in order to provide an easily reproducible framework. **We will contact all applicants as soon as possible in order to provide access to Biosecure DS2 database as well.** 
+
 
 All data provided is organised as follows:
 
 ```shell
 DeepSignDB
 |-- Development
+    |-- Finger
+    |-- Stylus
 |-- Evaluation
     |-- Finger
     |-- Stylus
@@ -69,14 +72,30 @@ Comparison_Files
 We provide all details regarding comparison files and nomenclature in the “README.pdf” file send it when applying for the DeepSignDB database. 
 
 
+## **EVALUATION RESULTS**
+
+Table 2 and 3 provide the **evaluation performance results** of our proposed TA-RNN approach for the **whole DeepSignDB** evaluation dataset and for **each of the databases** included in it when using the stylus and finger as input. In addition, we compare the proposed TA-RNNs [TCYB2019_DeepSign] with the preliminary benchmark results presented in [ICDAR2019_DeepSignDB] for completeness. Currently, Biosecure DS2 database is not included in these results as we cannot provide it yet.
+
+![](http://atvs.ii.uam.es/atvs/DeepSignDB_Stylus.png)
+
+Table 2: System performance results (EER) over the DeepSignDB evaluation dataset. **Stylus scenario.**
+
+
+![](http://atvs.ii.uam.es/atvs/DeepSignDB_Finger.png)
+
+Table 3: System performance results (EER) over the DeepSignDB evaluation dataset. **Finger scenario.**
+
+
 ## **REFERENCES**
 
 For further information on the database and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage.)
 
-- [ICDAR2019_DeepSignDB] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, A. Morales and J. Ortega-Garcia, "Do You Need More Data? The DeepSignDB On-Line Handwritten Signature Biometric Database", in Proc. Int. Conf. on Document Analysis and Recognition, ICDAR, Sydney, Australia, 2019.
+- [TCYB2019_DeepSign] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "DeepSign: Deep On-Line Signature Verification", *IEEE Transactions on Cybernetics*, (under review).
 
-- [PAA2010_BiosecurID] J. Fierrez, J. Galbally, et al., "BiosecurID: A Multimodal Biometric Database", Pattern Analysis and Applications, Vol. 13, n. 2, pp. 235-246, May 2010. 
+- [ICDAR2019_DeepSignDB] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, A. Morales and J. Ortega-Garcia, "Do You Need More Data? The DeepSignDB On-Line Handwritten Signature Biometric Database", in *Proc. Int. Conf. on Document Analysis and Recognition, ICDAR*, Sydney, Australia, 2019.
 
-- [VISP2003_MCYT] J. Ortega-Garcia, J. Fierrez, et al., "MCYT Baseline Corpus: A Bimodal Biometric Database", IEEE Proc. Vision, Image and Signal Processing, Vol. 150, n. 6, pp. 395-401, December 2003. 
+- [PAA2010_BiosecurID] J. Fierrez, J. Galbally, et al., "BiosecurID: A Multimodal Biometric Database", *Pattern Analysis and Applications*, Vol. 13, n. 2, pp. 235-246, May 2010. 
 
-Please remember to reference articles [ICDAR2019_DeepSignDB, PAA2010_BiosecurID, VISP2003_MCYT] on any work made public, whatever the form, based directly or indirectly on any part of the DeepSignDB database.
+- [VISP2003_MCYT] J. Ortega-Garcia, J. Fierrez, et al., "MCYT Baseline Corpus: A Bimodal Biometric Database", *IEEE Proc. Vision, Image and Signal Processing*, Vol. 150, n. 6, pp. 395-401, December 2003. 
+
+Please remember to reference articles [TCYB2019_DeepSign, ICDAR2019_DeepSignDB, PAA2010_BiosecurID, VISP2003_MCYT] on any work made public, whatever the form, based directly or indirectly on any part of the DeepSignDB database.
