@@ -1,4 +1,7 @@
 # DeepSignDB
+```diff 
++ Good News! The complete evaluation dataset (442 users) is already available! BiosecureDS2 subset has just been included.
+```
 
 ## **INSTRUCTIONS FOR DOWNLOADING DeepSignDB**
 
@@ -21,13 +24,13 @@ The DeepSignDB database comprises a total of 1526 users from four different popu
 
 Figure 1. Description of the design, acquisition devices, and writing tools considered in the new DeepSignDB database. A total of 1526 users and 8 different captured devices are used (5 Wacom and 3 Samsung general purpose devices). For the Samsung devices, signatures are also collected using the finger. Gen. Sig. = Genuine Signatures, and Sk. Forg. = Skilled Forgeries.
 
-A short description of each database regarding the device, writing input, number of acquisition sessions and time gap between them, and type of impostors is included inside the paper [ICDAR2019_DeepSignDB].
+A short description of each database regarding the device, writing input, number of acquisition sessions and time gap between them, and type of impostors is included inside the paper [ArXiv2020_DeepSign].
 
 ## **STANDARD EXPERIMENTAL PROTOCOL**
 
 The **DeepSignDB** database has been **divided into two different datasets,** one for the development and training of the system and the other one for the final evaluation. **The development dataset comprises around 70% of the users of each database whereas the remaining 30% are included in the evaluation dataset**. It is important to note that each dataset comprises different users in order to avoid biased results. Thus, we first identified all those users that took part in the acquisition of different databases.
 
-For the training of the systems, the **development dataset** comprises a total of 1084 users. In our experiments carried out in [ICDAR2019\_DeepSignDB], we have divided this dataset into two different subsets, training (80%) and validation (20%). However, as this dataset is used only for development, and not for the final evaluation of the systems, **we prefer not to set any restriction and let researchers use it as they like.**
+For the training of the systems, the **development dataset** comprises a total of 1084 users. In our experiments carried out in [ArXiv2020_DeepSign], we have divided this dataset into two different subsets, training (80%) and validation (20%). However, as this dataset is used only for development, and not for the final evaluation of the systems, **we prefer not to set any restriction and let researchers use it as they like.**
 
 For the **final testing of the systems**, the remaining 442 users of the DeepSignDB database are included in the **evaluation dataset**. In order to **perform a complete and fair analysis of the signature verification systems**, and see their generalization capacity to different scenarios, aspects such as the inter-session variability, number of training signatures, impostor scenario, and writing input (stylus/finger) have been considered in the final experimental protocol design. 
 
@@ -36,8 +39,6 @@ For the **final testing of the systems**, the remaining 442 users of the DeepSig
 ![](http://atvs.ii.uam.es/atvs/DeepSignDB_Experimental_Protocol_v2.png)
 
 Table 1: Experimental protocol details of the DeepSignDB evaluation dataset (442 users). Numbers are per user and device.
-
-For the moment, **we are able to release all databases apart from the Biosecure DS2 together with the corresponding signature comparisons files** considered during the evaluation of the systems in order to provide an easily reproducible framework. **We will contact all applicants as soon as possible in order to provide access to Biosecure DS2 database as well.** 
 
 
 All data provided is organised as follows:
@@ -74,9 +75,9 @@ We provide all details regarding comparison files and nomenclature in the “REA
 
 ## **EVALUATION RESULTS**
 
-Table 2 and 3 provide the **evaluation performance results** of our proposed TA-RNN approach for the **whole DeepSignDB** evaluation dataset and for **each of the databases** included in it when using the stylus and finger as input. In addition, we compare the proposed TA-RNNs [TCYB2019_DeepSign] with the preliminary benchmark results presented in [ICDAR2019_DeepSignDB] for completeness. **Currently, Biosecure DS2 database is not included in these results as we cannot provide it yet.**
+Table 2 and 3 provide the **evaluation performance results** of our proposed TA-RNN approach for the **whole DeepSignDB** evaluation dataset and for **each of the databases** included in it when using the stylus and finger as input. In addition, we compare the proposed TA-RNNs [ArXiv2020_DeepSign] with other popular approaches such as DTW and RNNs for completeness. All details are included in [ArXiv2020_DeepSign].
 
-![ ](http://atvs.ii.uam.es/atvs/DeepSignDB_EP_Stylus.png)
+![ ](http://atvs.ii.uam.es/atvs/DeepSignDB_EP_Stylus_full.png)
 
 Table 2: System performance results (EER) over the DeepSignDB evaluation dataset. **Stylus scenario.**
 
@@ -90,12 +91,12 @@ Table 3: System performance results (EER) over the DeepSignDB evaluation dataset
 
 For further information on the database and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage.)
 
-- [TCYB2019_DeepSign] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "DeepSign: Deep On-Line Signature Verification", *IEEE Transactions on Cybernetics*, (under review).
-
-- [ICDAR2019_DeepSignDB] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, A. Morales and J. Ortega-Garcia, "Do You Need More Data? The DeepSignDB On-Line Handwritten Signature Biometric Database", in *Proc. Int. Conf. on Document Analysis and Recognition, ICDAR*, Sydney, Australia, 2019.
+- [ArXiv2020_DeepSign] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "DeepSign: Deep On-Line Signature Verification", *arXiv preprint arXiv:2002.10119*, 2020.
 
 - [PAA2010_BiosecurID] J. Fierrez, J. Galbally, et al., "BiosecurID: A Multimodal Biometric Database", *Pattern Analysis and Applications*, Vol. 13, n. 2, pp. 235-246, May 2010. 
 
+- [TPAMI2010_BiosecureDS2] J. Ortega-Garcia, J. Fierrez, et al., “The Multi-Scenario Multi-Environment BioSecure Multimodal Database (BMDB),” *IEEE Trans. on Pattern Analysis and Machine Intelligence*, vol. 32, no. 6, pp. 1097– 1111, 2010.
+
 - [VISP2003_MCYT] J. Ortega-Garcia, J. Fierrez, et al., "MCYT Baseline Corpus: A Bimodal Biometric Database", *IEEE Proc. Vision, Image and Signal Processing*, Vol. 150, n. 6, pp. 395-401, December 2003. 
 
-Please remember to reference articles [TCYB2019_DeepSign, ICDAR2019_DeepSignDB, PAA2010_BiosecurID, VISP2003_MCYT] on any work made public, whatever the form, based directly or indirectly on any part of the DeepSignDB database.
+Please remember to reference articles [ArXiv2020_DeepSign, PAA2010_BiosecurID, TPAMI2010_BiosecureDS2, VISP2003_MCYT] on any work made public, whatever the form, based directly or indirectly on any part of the DeepSignDB database.
