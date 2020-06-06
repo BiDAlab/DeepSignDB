@@ -3,6 +3,10 @@
 + Good News! The complete evaluation dataset (442 users) is already available! BiosecureDS2 subset has just been included.
 ```
 
+## **ARTICLE**
+
+R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "[DeepSign: Deep On-Line Signature Verification](https://arxiv.org/abs/2002.10119)", *arXiv preprint arXiv:2002.10119*, 2020.  
+
 ## **INSTRUCTIONS FOR DOWNLOADING DeepSignDB**
 
 1. [Download license agreement](http://atvs.ii.uam.es/atvs/licenses/DeepSignDB_License.pdf), send by email one signed and scanned copy to [**atvs@uam.es**](mailto:atvs@uam.es) according to the instructions given in point 2.
