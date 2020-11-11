@@ -15,7 +15,7 @@ R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "[DeepSign: De
     
     [[link](http://atvs.ii.uam.es/atvs/files/DeepSignDB_License_SVC2021.pdf)] Independent researchers, developers, students, and companies > limited DeepSignDB access solely for the purpose of the SVC 2021 competition.    
 
-Once the corresponding license agreement is signed, send the scanned copy to atvs@uam.es according to the instructions given in point 2.
+    Once the corresponding license agreement is signed, send the scanned copy to atvs@uam.es according to the instructions given in point 2.
 
 2. Send an email to [**atvs@uam.es**](mailto:atvs@uam.es), as follows:
 
