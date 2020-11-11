@@ -13,7 +13,7 @@ R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "[DeepSign: De
 
     [[link](http://atvs.ii.uam.es/atvs/licenses/DeepSignDB_License.pdf)] Permanent researchers working at research or academic institutions, and selected companies generating research outcomes > full research access to DeepSignDB.
     
-    [[link](atvs.ii.uam.es/atvs/files/DeepSignDB_License_SVC2021.pdf)] Independent researchers, developers, students, and companies > limited DeepSignDB access solely for the purpose of the SVC 2021 competition.    
+    [[link](http://atvs.ii.uam.es/atvs/files/DeepSignDB_License_SVC2021.pdf)] Independent researchers, developers, students, and companies > limited DeepSignDB access solely for the purpose of the SVC 2021 competition.    
 
 Once the corresponding license agreement is signed, send the scanned copy to atvs@uam.es according to the instructions given in point 2.
 
