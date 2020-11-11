@@ -9,7 +9,6 @@ R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "[DeepSign: De
 
 ## **INSTRUCTIONS FOR DOWNLOADING DeepSignDB**
 
-1. [Download license agreement](http://atvs.ii.uam.es/atvs/licenses/DeepSignDB_License.pdf), send by email one signed and scanned copy to [**atvs@uam.es**](mailto:atvs@uam.es) according to the instructions given in point 2.
 1. Download your corresponding license agreement:
 
     [link](http://atvs.ii.uam.es/atvs/licenses/DeepSignDB_License.pdf) Permanent researchers working at research or academic institutions, and selected companies generating research outcomes > full research access to DeepSignDB.
