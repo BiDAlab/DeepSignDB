@@ -5,7 +5,7 @@
 
 ## **ARTICLE**
 
-R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "[DeepSign: Deep On-Line Signature Verification](https://arxiv.org/abs/2002.10119)", *arXiv preprint arXiv:2002.10119*, 2020.  
+R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "[DeepSign: Deep On-Line Signature Verification](https://arxiv.org/abs/2002.10119)", *IEEE Transactions on Biometrics, Behavior, and Identity Science*, 2021.  
 
 ## **INSTRUCTIONS FOR DOWNLOADING DeepSignDB**
 
