@@ -102,7 +102,7 @@ Table 3: System performance results (EER) over the DeepSignDB evaluation dataset
 
 For further information on the database and on different applications where it has been used, we refer the reader to (all these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA group webpage.)
 
-- [ArXiv2020_DeepSign] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "DeepSign: Deep On-Line Signature Verification", *IEEE Transactions on Biometrics, Behavior, and Identity Science*, 2021.  
+- [T-BIOM2021_DeepSign] R. Tolosana, R. Vera-Rodriguez, J. Fierrez, and J. Ortega-Garcia, "DeepSign: Deep On-Line Signature Verification", *IEEE Transactions on Biometrics, Behavior, and Identity Science*, 2021.  
 
 - [PAA2010_BiosecurID] J. Fierrez, J. Galbally, et al., "BiosecurID: A Multimodal Biometric Database", *Pattern Analysis and Applications*, Vol. 13, n. 2, pp. 235-246, May 2010. 
 
